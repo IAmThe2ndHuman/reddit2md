@@ -50,6 +50,9 @@ _This will create an EPUB file called `book.epub` in the output directory and re
 - [x] Support for walking through linked threads
 - [x] EPUB generation using `pandoc`
 - [ ] Make the CLI more user-friendly (especially the -o flag and -b flag)
+- [ ] Allow `--bundle filename.md` to bundle the separate markdown files into a single markdown file
+    - It might be good to have `--clean` be implied when `--bundle` is used, since the intermediate files are less useful 
+        for that use-case.
 - [ ] Add support for threads that are continued in comments
 - [ ] Add support for appending top comments/replies to the end of posts.
 - [ ] Add support for generating PDFs
