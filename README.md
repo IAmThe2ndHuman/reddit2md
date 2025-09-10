@@ -64,7 +64,8 @@ _This will create an EPUB file called `book.epub` in the output directory and re
         we can use that instead of counting posts 1, 2, 3, etc. which is what it does now. 
     - Another might be adding a CLI arg that forces non-heuristic chapter titles, and also allows you to specify a starting chapter number.
     - Another may be adding a custom title and cover image.
-    - Add a table of contents. (un)
+    - Enhance the table of contents.
+    - Enhance the CSS or allow custom CSS.
 - I'll think of more stuff eventually...
 
 ## Contributing
